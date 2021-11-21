@@ -2,7 +2,7 @@ import './Button.scss';
 
 const Button = ({children}) => {
     return (
-        <button className="neumorphic-btn neumorphic-btn_fab">
+        <button className="btn neumorphic-btn">
             {children}
         </button>
     )
